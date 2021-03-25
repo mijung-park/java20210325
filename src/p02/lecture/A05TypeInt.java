@@ -1,6 +1,6 @@
 package p02.lecture;
 
-public class A05TypelInt {
+public class A05TypeInt {
 	public static void main(String[] args) {
 		// int : 4byte (32bit)
 		
