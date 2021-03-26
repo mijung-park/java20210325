@@ -15,6 +15,7 @@ public class Solution01 {
 		int _age;
 //		int int // 타입명 X
 		
+		
 		// 7번 문제
 		int var1 = 10;
 		long var2 = 1000000000000000L;
