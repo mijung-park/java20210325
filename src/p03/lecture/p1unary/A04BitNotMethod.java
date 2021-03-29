@@ -13,7 +13,9 @@ public class A04BitNotMethod {
 		// funcName(1, 2);
 	}
 	
-	public static String funcame(int para1, int para2) {
+	// java 호출:
+	// funcName (1, 2)
+	public static String funcName(int para1, int para2) {
 		// statements...;
 		
 		return "Hello";
