@@ -54,7 +54,7 @@ public class A01Logical {
 		 System.out.println("xor");
 		 System.out.println(true ^ true); // false
 		 System.out.println(true ^ false); // true
-		 System.out.println(false ^ true); // ture
+		 System.out.println(false ^ true); // true
 		 System.out.println(false ^ false); // false
 		 
 	}
