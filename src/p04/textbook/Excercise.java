@@ -15,6 +15,7 @@ public class Excercise {
 //		
 		// 4번 문제
 //
+//		ex) 1
 //		int num1 = 0;
 //		int num2 = 0;
 //		do {			
@@ -23,6 +24,16 @@ public class Excercise {
 //			System.out.println("(" + num1 + ", " + num2 + ")" );
 //			
 //		} while (num1 + num2 != 5);
+		
+//		ex) 2
+//		while (true) {
+//			int num1 = (int)(Math.random()*6) +1;
+//			int num2 = (int)(Math.random()*6) +1;
+//			System.out.println("(" + num1 + ", " + num2 + ")" );
+//			if (num1 + num2 == 5) {
+//				break;
+//			}			
+//		}
 		
 
 		// 5번 문제
@@ -84,40 +95,40 @@ public class Excercise {
 //			System.out.println();
 //		}
 //		System.out.println("프로그램 종료");
-		
-		//ex 2
-		boolean run = true;
-		int balance = 0;
-		Scanner scanner = new Scanner(System.in);
-
-		while (run) {
-			System.out.println("---------------------------------");
-			System.out.println("1.에금 | 2.출금 | 3.잔고 | 4.종료");
-			System.out.println("---------------------------------");
-			System.out.print("선택>");
-		
-
-			int bank = scanner.nextInt();
-			
-			switch (bank) {
-			case 1:
-				System.out.println("예금액>");
-				int amount = scanner.nextInt();
-				balance += amount;		
-				break;
-			case 2:
-				System.out.println("예금액>");
-				amount = scanner.nextInt();
-				balance -= amount;
-				break;
-			case 3:
-				System.out.println("잔고> " + balance);
-				break;
-			case 4:
-				run = false;
-				break;
-			}
-		}
+//		
+//		//ex 2
+//		boolean run = true;
+//		int balance = 0;
+//		Scanner scanner = new Scanner(System.in);
+//
+//		while (run) {
+//			System.out.println("---------------------------------");
+//			System.out.println("1.에금 | 2.출금 | 3.잔고 | 4.종료");
+//			System.out.println("---------------------------------");
+//			System.out.print("선택>");
+//		
+//
+//			int bank = scanner.nextInt();
+//			
+//			switch (bank) {
+//			case 1:
+//				System.out.println("예금액>");
+//				int amount = scanner.nextInt();
+//				balance += amount;		
+//				break;
+//			case 2:
+//				System.out.println("예금액>");
+//				amount = scanner.nextInt();
+//				balance -= amount;
+//				break;
+//			case 3:
+//				System.out.println("잔고> " + balance);
+//				break;
+//			case 4:
+//				run = false;
+//				break;
+//			}
+//		}
 
 	}
 }
