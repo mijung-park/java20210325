@@ -7,10 +7,9 @@ public class A04WhileComputerNumber {
 		int comNum = (int) (Math.random() * 100) + 1;
 		System.out.println("ComputerNumber : " + comNum);
 
-		System.out.println("컴퓨터의 수를 맞춰보세요");
 		Scanner scan = new Scanner(System.in);
+		System.out.println("컴퓨터의 수를 맞춰보세요");
 		
-
 		
 		while (true) {
 			int userNum = scan.nextInt();
