@@ -9,10 +9,10 @@ public class A17Whilesample {
 		System.out.println("comNumber: " + comNumber);
 
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("컴퓨터의 수를 맞춰보세요>");
 		
 		while (true) {
 			
+			System.out.println("컴퓨터의 수를 맞춰보세요>");
 			int userNumber = scanner.nextInt();
 
 			if (comNumber == userNumber) {
