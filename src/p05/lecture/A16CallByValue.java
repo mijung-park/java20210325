@@ -5,7 +5,7 @@ public class A16CallByValue {
 		int[] arr1 = new int[3];
 		for (int i = 0; i < arr1.length; i++) {
 			arr1[i] = i * 2;
-			System.out.println(arr1[i]);
+		
 		}
 		
 		int[] arr2 = new int[5];
