@@ -22,15 +22,27 @@ public class A31MatrixSum {
 		
 		for (int[] row : mat3) {
 			System.out.println(Arrays.toString(row));
-		}
-		
-		
+		}	
 		
 	}
+	
+//	private static int[][] sum2(int[][] a, int[][] b) {
+//		
+//		int[][] c = new int[a.length][];
+//		
+//		for(int i = 0; i < c.length; i++) {
+//			c[i] = new int[a[i].length]; //33열에 지정하지않은 행을 설정
+//			for(int j = 0; j < c[i].length; j++) {
+//				c[i][j] += a[i][j] + b[i][j];
+//			}
+//		}
+//		
+//		return c;
+//	}
 
 	private static int[][] sum(int[][] a, int[][] b) {
 		
-		int[][] c = new int[4][3];
+		int[][] c = new int[a.length][a[0].length];
 		
 		for(int i = 0; i < c.length; i++) {
 			for(int j = 0; j < c[i].length; j++) {
