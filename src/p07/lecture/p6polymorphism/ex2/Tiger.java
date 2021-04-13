@@ -6,5 +6,9 @@ public class Tiger extends KindaCat {
 	public void cry() {
 		System.out.println("어흥!!!!!!!!!!!");
 	}
+	
+	public void hunt() {
+		System.out.println("호랑이가 사냥합니다!");
+	}
 
 }
