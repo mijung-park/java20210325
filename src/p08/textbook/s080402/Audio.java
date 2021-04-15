@@ -16,7 +16,7 @@ public class Audio implements RemoteControl{
 	
 	// turnOff() 추상 메소드의 실체 메소드
 
-	public void turnOFF() {
+	public void turnOff() {
 		System.out.println("Audio를 끕니다.");
 	}
 	

@@ -12,15 +12,15 @@ public class RemoteControlExample {
 		
 		rc = new Television();
 		rc.turnOn();
-		rc.turnOFF();
+		rc.turnOff();
 		
 		rc = new Audio();
 		rc.turnOn();
-		rc.turnOFF();
+		rc.turnOff();
 		
 		rc = new SmartTelevision();
 		rc.turnOn();
-		rc.turnOFF();
+		rc.turnOff();
 		
 		Searchable s1 = new SmartTelevision();
 		s1.search("daum");

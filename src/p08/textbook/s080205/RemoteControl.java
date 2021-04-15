@@ -6,7 +6,7 @@ public interface RemoteControl {
 	
 	// 추상 메소드
 	void turnOn();
-	void turnOFF();
+	void turnOff();
 	void setVolume(int volume);
 	
 	// 디폴트 메소드

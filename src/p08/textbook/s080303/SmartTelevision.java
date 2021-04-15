@@ -11,7 +11,7 @@ public class SmartTelevision implements RemoteControl, Searchable{
 	}
 	
 
-	public void turnOFF() {
+	public void turnOff() {
 		System.out.println("TV를 끕니다.");
 	}
 	
