@@ -16,6 +16,8 @@ public class Outter {
 		void print() {
 			System.out.println(this.field);
 			this.method();
+			System.out.println(field);
+			method();
 			System.out.println(Outter.this.field);
 			Outter.this.method();
 		}
