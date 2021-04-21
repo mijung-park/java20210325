@@ -18,7 +18,7 @@ public class Student {
 	
 	@Override
 	public boolean equals(Object obj) {
-		
+		k
 		return this.studentNum.equals(((Student) obj).studentNum);
 	}
 }
