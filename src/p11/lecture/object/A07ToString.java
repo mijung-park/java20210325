@@ -37,6 +37,5 @@ class Student {
 	@Override
 	public String toString() {
 		String desc = "id: " + id + ", " + "name: " + name;
-		return desc;
-	}
+		return desc;}
 }
