@@ -1,4 +1,4 @@
-package p11.textbook.ex4;
+package p11.textbook.ex04;
 
 public class Member {
 	private String id;

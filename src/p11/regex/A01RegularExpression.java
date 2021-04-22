@@ -168,6 +168,14 @@ public class A01RegularExpression {
 		System.out.println(Pattern.matches(regex1, str3));
 		System.out.println(Pattern.matches(regex1, str4));
 		
+		regex1 = "[가-힣]+";
+		str1 = "박미정구리구리";
+		System.out.println(Pattern.matches(regex1, str1));
+		
+		regex1 = "\\p{IsHangul}+";
+		str1 = "박미정ㅋㅋㅋㅋㅋ";
+		System.out.println(Pattern.matches(regex1, str1));
+		
 	}
 	
 }
